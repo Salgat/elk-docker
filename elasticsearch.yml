@@ -53,6 +53,7 @@
 #
 # network.host: 192.168.0.1
 network.host: 0.0.0.0
+http.port: 9200
 #
 # Set a custom port for HTTP:
 #
@@ -95,3 +96,6 @@ network.host: 0.0.0.0
 # Require explicit names when deleting indices:
 #
 # action.destructive_requires_name: true
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
